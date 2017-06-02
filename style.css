@@ -1,0 +1,115 @@
+body{
+  margin: 0px auto;
+}
+
+.container-fluid{
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+.row{
+  float: right;
+  position: relative;
+  height: 200px;
+  width: 100%;
+  margin:0px auto;
+  text-align: center;
+}
+
+.album{
+  position: relative;
+  float: right;
+  height: 100%;
+  width: 100%;
+  margin: 0px auto;
+  padding: 20px;
+}
+
+.album img{
+  height: 230px;
+  padding: 20px;
+}
+
+
+header{
+  height: 50px;
+  background-color: #9B9B8D;
+  width: 100%;
+  color: #ffffff;
+}
+
+main{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+footer {
+  padding: 5px;
+  width: 100%;
+  background-color: #9B9B8D;
+  color: white;
+  position: fixed;
+  bottom: 0px;
+  height: 50px;
+}
+
+.footy{
+  margin-left: 10px;
+}
+
+#left_section{
+  height: 100%;
+  width: 40%;
+  float: left;
+  background-color: #EEEEEE;
+  overflow: scroll;
+}
+
+.album_box{
+  opacity: .4;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: 757px 685px;
+  overflow: scroll;
+  background-image: url("/Users/racecarpenter/Projects/Week04/playlist/resources/track.jpg");
+}
+
+#right_section{
+  float: right;
+  height: 100%;
+  width: 60%;
+}
+
+
+.track_box{
+  padding-top: 250px;
+  margin: 0px auto;
+  width: 100%;
+  background-color: #EEEEEE;
+  height: 80%;
+  text-align: center;
+  overflow: scroll;
+}
+@fontface{
+  font-family: AR;
+  src: url(/Users/racecarpenter/Projects/Week04/playlist/fonts/AvenirNextLTPro-Regular.otf);
+}
+.track_text{
+  width: 300px;
+  margin: 0px auto;
+  font-family: AR;
+  color: purple;
+  font-size: 60px;
+}
+.track_button{
+  width: 220px;
+  height: 50px;
+  background-color: #353527;
+  font-family: AR;
+  color: #B7B7B2;
+  border-radius: 20px;
+}
